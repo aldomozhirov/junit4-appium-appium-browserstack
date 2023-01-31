@@ -9,6 +9,8 @@ steps:
     appPath: 'WikipediaSample.apk'
 - task: Maven@3
   inputs:
+    javaHomeOption: 'Path'
+    jdkDirectory: '/Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/Home'
     mavenPomFile: 'pom.xml'
     publishJUnitResults: true
     testResultsFiles: '**/surefire-reports/TEST-*.xml'
