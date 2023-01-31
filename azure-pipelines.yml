@@ -7,12 +7,6 @@ steps:
 - task: BrowserStackAppUploader@0
   inputs:
     appPath: 'WikipediaSample.apk'
-- task: Maven@3
-  inputs:
-    javaHomeOption: 'Path'
-    jdkDirectory: '/Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/Home'
-    mavenPomFile: 'pom.xml'
-    publishJUnitResults: true
-    testResultsFiles: '**/surefire-reports/TEST-*.xml'
-    goals: 'test'
-    options: '-P first'
+- script: |
+    mvn test -P first
+  displayName: 'Run tests'
