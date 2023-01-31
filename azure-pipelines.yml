@@ -11,3 +11,6 @@ steps:
     export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk-16.0.1.jdk/Contents/Home
     mvn test -P first
   displayName: 'Run tests'
+- task: BrowserStackResults@1
+  inputs:
+    browserstackProduct: 'automate'
