@@ -1,0 +1,8 @@
+com/browserstack/run_parallel_test/Parallelized$ThreadPoolScheduler.class
+com/browserstack/run_local_test/BrowserStackJUnitTest.class
+com/browserstack/run_first_test/BrowserStackJUnitTest.class
+com/browserstack/run_parallel_test/BrowserStackJUnitTest.class
+com/browserstack/run_parallel_test/Parallelized.class
+com/browserstack/run_parallel_test/ParallelTest.class
+com/browserstack/run_first_test/FirstTest.class
+com/browserstack/run_local_test/LocalTest.class
