@@ -16,5 +16,5 @@ steps:
     mavenPomFile: 'pom.xml'
     goals: 'test'
     options: '-P first'
-    javaHomeOption: 'Path'
-    jdkDirectory: '/Library/Java/JavaVirtualMachines/jdk-16.0.1.jdk/Contents/Home'
+#    javaHomeOption: 'Path'
+#    jdkDirectory: '/Library/Java/JavaVirtualMachines/jdk-16.0.1.jdk/Contents/Home'
