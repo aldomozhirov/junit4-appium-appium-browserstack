@@ -1,4 +1,4 @@
-pool: Default
+pool: Joao
 
 steps:
 - task: BrowserStackConfig@0
