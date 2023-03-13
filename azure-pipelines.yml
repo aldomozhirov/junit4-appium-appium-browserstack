@@ -20,9 +20,9 @@ steps:
     jdkDirectory: '/Library/Java/JavaVirtualMachines/jdk-16.0.1.jdk/Contents/Home'
 - task: PublishTestResults@2
   inputs:
-    testResultsFormat: 'XUnit'
-    testResultsFiles: '*-testsuite.xml'
-    searchFolder: 'allure-results'
+    testResultsFormat: 'JUnit'
+    testResultsFiles: 'TEST-*.xml'
+    searchFolder: 'target/surefire-reports'
     testRunTitle: Test results
     buildConfiguration: debug
     mergeTestResults: true
