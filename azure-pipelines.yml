@@ -1,4 +1,4 @@
-pool: Joao
+pool: Default
 
 steps:
 - task: BrowserStackConfig@0
@@ -16,5 +16,13 @@ steps:
     mavenPomFile: 'pom.xml'
     goals: 'test'
     options: '-P first'
-#    javaHomeOption: 'Path'
-#    jdkDirectory: '/Library/Java/JavaVirtualMachines/jdk-16.0.1.jdk/Contents/Home'
+    javaHomeOption: 'Path'
+    jdkDirectory: '/Library/Java/JavaVirtualMachines/jdk-16.0.1.jdk/Contents/Home'
+- task: PublishTestResults@2
+  inputs:
+    testResultsFormat: 'XUnit'
+    testResultsFiles: '*-testsuite.xml'
+    searchFolder: 'allure-results'
+    testRunTitle: Test results
+    buildConfiguration: debug
+    mergeTestResults: true
