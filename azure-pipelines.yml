@@ -1,0 +1,28 @@
+pool: Default
+
+steps:
+- task: BrowserStackConfig@0
+  inputs:
+    BrowserStackServiceEndPoint: 'browserstack-connection'
+- task: BrowserStackAppUploader@0
+  inputs:
+    appPath: 'WikipediaSample.apk'
+#- script: |
+#    export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk-16.0.1.jdk/Contents/Home
+#    mvn test -P first
+#  displayName: 'Run tests'
+- task: Maven@4
+  inputs:
+    mavenPomFile: 'pom.xml'
+    goals: 'test'
+    options: '-P first'
+    javaHomeOption: 'Path'
+    jdkDirectory: '/Library/Java/JavaVirtualMachines/jdk-16.0.1.jdk/Contents/Home'
+- task: PublishTestResults@2
+  inputs:
+    testResultsFormat: 'JUnit'
+    testResultsFiles: 'TEST-*.xml'
+    searchFolder: 'target/surefire-reports'
+    testRunTitle: Test results
+    buildConfiguration: debug
+    mergeTestResults: true
