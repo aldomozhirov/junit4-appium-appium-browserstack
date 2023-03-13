@@ -1,0 +1,208 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1677763387813' stop='1677763387915'>
+    <name>When some tests in suite errored</name>
+    <title>When some tests in suite errored</title>
+    <test-cases>
+        <test-case start='1677763387814' status='passed' stop='1677763387876'>
+            <name>When some tests in suite errored test should pass #1</name>
+            <title>When some tests in suite errored test should pass #1</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='label_1' value='label_value_1'/>
+                <label name='label_2' value='label_value_2'/>
+                <label name='label_3' value='label_value_3'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-110.0.5481.100'/>
+                <parameter kind='argument' name='argument_1' value='argument_value_1'/>
+                <parameter kind='argument' name='argument_2' value='argument_value_2'/>
+                <parameter kind='argument' name='argument_3' value='argument_value_3'/>
+                <parameter kind='argument' name='argument_1' value='argument_value_1'/>
+                <parameter kind='argument' name='argument_2' value='argument_value_2'/>
+                <parameter kind='argument' name='argument_3' value='argument_value_3'/>
+                <parameter kind='argument' name='argument_1' value='argument_value_1'/>
+                <parameter kind='argument' name='argument_2' value='argument_value_2'/>
+                <parameter kind='argument' name='argument_3' value='argument_value_3'/>
+                <parameter kind='argument' name='argument_1' value='argument_value_1'/>
+                <parameter kind='argument' name='argument_2' value='argument_value_2'/>
+                <parameter kind='argument' name='argument_3' value='argument_value_3'/>
+            </parameters>
+            <steps>
+                <step start='1677763387820' status='passed' stop='1677763387823'>
+                    <name>Passed step #1</name>
+                    <title>Passed step #1</title>
+                    <attachments>
+                        <attachment title='Passed step #1 (1)' source='7d304425-f99e-47d1-959d-8f57817563f9-attachment.png' type='image/png' size='82502'/>
+                        <attachment title='Passed step #1 (2)' source='8de0f4c4-d1fa-48c5-9f89-6cdc541f6bbc-attachment.png' type='image/png' size='82502'/>
+                        <attachment title='Passed step #1 (3)' source='597f5569-55c4-453b-924b-a91c73fdd4cf-attachment.png' type='image/png' size='82502'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1677763387823' status='passed' stop='1677763387873'>
+                    <name>Passed step #2</name>
+                    <title>Passed step #2</title>
+                    <attachments>
+                        <attachment title='Passed step #2 (1)' source='9ed67617-fe77-49ff-9cc0-2e6f2b424096-attachment.png' type='image/png' size='82502'/>
+                        <attachment title='Passed step #2 (2)' source='5e3fcc90-8a58-48d2-afba-91fd54893299-attachment.png' type='image/png' size='82502'/>
+                        <attachment title='Passed step #2 (3)' source='af37c880-9ef9-48c3-9f38-86e38f34e58a-attachment.png' type='image/png' size='82502'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1677763387873' status='passed' stop='1677763387876'>
+                    <name>Passed step #3</name>
+                    <title>Passed step #3</title>
+                    <attachments>
+                        <attachment title='Passed step #3 (1)' source='7f9b65fd-40d2-4c18-b5b2-32c9080ba33a-attachment.png' type='image/png' size='82502'/>
+                        <attachment title='Passed step #3 (2)' source='669b5873-66d9-4ee4-920c-5a981b19e092-attachment.png' type='image/png' size='82502'/>
+                        <attachment title='Passed step #3 (3)' source='d418bd73-8ac7-4eb8-9909-4ee33d138a24-attachment.png' type='image/png' size='82502'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='When some tests in suite errored test should pass #1 (1)' source='88f068e4-800f-4566-b9bb-d9b42451763f-attachment.png' type='image/png' size='82502'/>
+                <attachment title='When some tests in suite errored test should pass #1 (2)' source='e46dc9f3-f5b4-4e2d-98ff-fc687c3f3e3b-attachment.png' type='image/png' size='82502'/>
+                <attachment title='When some tests in suite errored test should pass #1 (3)' source='5f6a4de6-ef84-4056-9397-c34e93883e5c-attachment.png' type='image/png' size='82502'/>
+                <attachment title='When some tests in suite errored test should pass #1 (1)' source='d7442c59-92b0-4d35-b936-1151d2b89991-attachment.mp4' type='video/mp4' size='893161'/>
+            </attachments>
+        </test-case>
+        <test-case start='1677763387877' status='passed' stop='1677763387907'>
+            <name>When some tests in suite errored test should pass #2</name>
+            <title>When some tests in suite errored test should pass #2</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='label_1' value='label_value_1'/>
+                <label name='label_2' value='label_value_2'/>
+                <label name='label_3' value='label_value_3'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-110.0.5481.100'/>
+                <parameter kind='argument' name='argument_1' value='argument_value_1'/>
+                <parameter kind='argument' name='argument_2' value='argument_value_2'/>
+                <parameter kind='argument' name='argument_3' value='argument_value_3'/>
+                <parameter kind='argument' name='argument_1' value='argument_value_1'/>
+                <parameter kind='argument' name='argument_2' value='argument_value_2'/>
+                <parameter kind='argument' name='argument_3' value='argument_value_3'/>
+                <parameter kind='argument' name='argument_1' value='argument_value_1'/>
+                <parameter kind='argument' name='argument_2' value='argument_value_2'/>
+                <parameter kind='argument' name='argument_3' value='argument_value_3'/>
+                <parameter kind='argument' name='argument_1' value='argument_value_1'/>
+                <parameter kind='argument' name='argument_2' value='argument_value_2'/>
+                <parameter kind='argument' name='argument_3' value='argument_value_3'/>
+            </parameters>
+            <steps>
+                <step start='1677763387886' status='passed' stop='1677763387888'>
+                    <name>Passed step #1</name>
+                    <title>Passed step #1</title>
+                    <attachments>
+                        <attachment title='Passed step #1 (1)' source='b896c53a-ce93-4c14-b058-ed4a2993f6c2-attachment.png' type='image/png' size='82502'/>
+                        <attachment title='Passed step #1 (2)' source='f473c64f-c521-4e5e-b272-b44eeb6a2f3a-attachment.png' type='image/png' size='82502'/>
+                        <attachment title='Passed step #1 (3)' source='581ca879-0364-4799-8de5-52ccd3c919ed-attachment.png' type='image/png' size='82502'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1677763387888' status='passed' stop='1677763387891'>
+                    <name>Passed step #2</name>
+                    <title>Passed step #2</title>
+                    <attachments>
+                        <attachment title='Passed step #2 (1)' source='b3bf6dd3-fd7f-4dad-a7da-389173df12d3-attachment.png' type='image/png' size='82502'/>
+                        <attachment title='Passed step #2 (2)' source='8ff436e5-cc4c-4ef9-b1b9-677b78b2ac6a-attachment.png' type='image/png' size='82502'/>
+                        <attachment title='Passed step #2 (3)' source='f79d92e9-7292-41e6-866b-67a1930d02e5-attachment.png' type='image/png' size='82502'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1677763387891' status='passed' stop='1677763387907'>
+                    <name>Passed step #3</name>
+                    <title>Passed step #3</title>
+                    <attachments>
+                        <attachment title='Passed step #3 (1)' source='5c4ecd3f-9108-409c-9f8b-0a16de6960e3-attachment.png' type='image/png' size='82502'/>
+                        <attachment title='Passed step #3 (2)' source='70e88281-f0f0-4b10-b815-32bc8833d49f-attachment.png' type='image/png' size='82502'/>
+                        <attachment title='Passed step #3 (3)' source='369b838b-4870-479c-bed3-c33446557d9a-attachment.png' type='image/png' size='82502'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='When some tests in suite errored test should pass #2 (1)' source='72026332-df57-40bd-b2d9-699886525548-attachment.png' type='image/png' size='82502'/>
+                <attachment title='When some tests in suite errored test should pass #2 (2)' source='d662be03-2398-420a-82de-4e16fe596e20-attachment.png' type='image/png' size='82502'/>
+                <attachment title='When some tests in suite errored test should pass #2 (3)' source='c9b73cee-e42c-4b9b-91bd-9ccb53441748-attachment.png' type='image/png' size='82502'/>
+                <attachment title='When some tests in suite errored test should pass #2 (1)' source='4d2a3105-8208-4020-a59f-ad1bee925575-attachment.mp4' type='video/mp4' size='893161'/>
+            </attachments>
+        </test-case>
+        <test-case start='1677763387907' status='broken' stop='1677763387915'>
+            <name>When some tests in suite errored test should be errored #1</name>
+            <title>When some tests in suite errored test should be errored #1</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='label_1' value='label_value_1'/>
+                <label name='label_2' value='label_value_2'/>
+                <label name='label_3' value='label_value_3'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-110.0.5481.100'/>
+                <parameter kind='argument' name='argument_1' value='argument_value_1'/>
+                <parameter kind='argument' name='argument_2' value='argument_value_2'/>
+                <parameter kind='argument' name='argument_3' value='argument_value_3'/>
+                <parameter kind='argument' name='argument_1' value='argument_value_1'/>
+                <parameter kind='argument' name='argument_2' value='argument_value_2'/>
+                <parameter kind='argument' name='argument_3' value='argument_value_3'/>
+                <parameter kind='argument' name='argument_1' value='argument_value_1'/>
+                <parameter kind='argument' name='argument_2' value='argument_value_2'/>
+                <parameter kind='argument' name='argument_3' value='argument_value_3'/>
+                <parameter kind='argument' name='argument_1' value='argument_value_1'/>
+                <parameter kind='argument' name='argument_2' value='argument_value_2'/>
+                <parameter kind='argument' name='argument_3' value='argument_value_3'/>
+            </parameters>
+            <steps>
+                <step start='1677763387910' status='passed' stop='1677763387911'>
+                    <name>Passed step #1</name>
+                    <title>Passed step #1</title>
+                    <attachments>
+                        <attachment title='Passed step #1 (1)' source='a2960b16-3122-4051-a807-bcdfd32ab3d1-attachment.png' type='image/png' size='82502'/>
+                        <attachment title='Passed step #1 (2)' source='4085dc45-2130-4f13-ba4e-a0ce805f28dc-attachment.png' type='image/png' size='82502'/>
+                        <attachment title='Passed step #1 (3)' source='ab66e2b3-0285-4cf9-80c5-ddcb419bf3c8-attachment.png' type='image/png' size='82502'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1677763387911' status='passed' stop='1677763387912'>
+                    <name>Passed step #2</name>
+                    <title>Passed step #2</title>
+                    <attachments>
+                        <attachment title='Passed step #2 (1)' source='be6566ad-2045-43e9-8bf7-b3391a1d5cf3-attachment.png' type='image/png' size='82502'/>
+                        <attachment title='Passed step #2 (2)' source='8b528321-f8b0-4e66-9c77-3ec7a05e1a3e-attachment.png' type='image/png' size='82502'/>
+                        <attachment title='Passed step #2 (3)' source='fcf5080d-ca49-47b3-a970-2334924c2a42-attachment.png' type='image/png' size='82502'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1677763387912' status='broken' stop='1677763387915'>
+                    <name>Errored step #3</name>
+                    <title>Errored step #3</title>
+                    <attachments>
+                        <attachment title='Errored step #3 (1)' source='86a72c3b-d603-489b-9a2d-c4709ef1476a-attachment.png' type='image/png' size='82502'/>
+                        <attachment title='Errored step #3 (2)' source='5b186721-4866-49cc-8202-6f80a3782c94-attachment.png' type='image/png' size='82502'/>
+                        <attachment title='Errored step #3 (3)' source='3c34449a-ff84-400a-a8a1-894b9768d43d-attachment.png' type='image/png' size='82502'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='When some tests in suite errored test should be errored #1 (1)' source='79997990-fc87-482b-8a66-2d2163d6be42-attachment.png' type='image/png' size='82502'/>
+                <attachment title='When some tests in suite errored test should be errored #1 (2)' source='30b78588-7c3a-457f-8fc0-de7f777ec8a3-attachment.png' type='image/png' size='82502'/>
+                <attachment title='When some tests in suite errored test should be errored #1 (3)' source='64c0e4fc-31c2-4c51-896f-ee348b9cd904-attachment.png' type='image/png' size='82502'/>
+                <attachment title='When some tests in suite errored test should be errored #1 (1)' source='c6ba9ffa-ed7e-45f2-925d-6ab708049b61-attachment.mp4' type='video/mp4' size='893161'/>
+            </attachments>
+            <failure>
+                <message>This step should throw error</message>
+                <stack-trace>Error: This step should throw error
+                    at generateStep (/home/node/tests/utils/index.ts:57:19)
+                    at async Context.&lt;anonymous> (/home/node/tests/utils/index.ts:170:17)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

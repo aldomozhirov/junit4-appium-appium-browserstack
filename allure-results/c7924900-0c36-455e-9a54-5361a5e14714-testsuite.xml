@@ -1,0 +1,133 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1677763549073' stop='1677763549104'>
+    <name>When test has a lot of nested steps</name>
+    <title>When test has a lot of nested steps</title>
+    <test-cases>
+        <test-case start='1677763549078' status='passed' stop='1677763549103'>
+            <name>Test with 7 nested steps</name>
+            <title>Test with 7 nested steps</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-2'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-110.0.5481.100'/>
+                <parameter kind='argument' name='argument_1' value='argument_value_1'/>
+                <parameter kind='argument' name='argument_2' value='argument_value_2'/>
+                <parameter kind='argument' name='argument_3' value='argument_value_3'/>
+                <parameter kind='argument' name='argument_1' value='argument_value_1'/>
+                <parameter kind='argument' name='argument_2' value='argument_value_2'/>
+                <parameter kind='argument' name='argument_3' value='argument_value_3'/>
+                <parameter kind='argument' name='argument_1' value='argument_value_1'/>
+                <parameter kind='argument' name='argument_2' value='argument_value_2'/>
+                <parameter kind='argument' name='argument_3' value='argument_value_3'/>
+                <parameter kind='argument' name='argument_1' value='argument_value_1'/>
+                <parameter kind='argument' name='argument_2' value='argument_value_2'/>
+                <parameter kind='argument' name='argument_3' value='argument_value_3'/>
+                <parameter kind='argument' name='argument_1' value='argument_value_1'/>
+                <parameter kind='argument' name='argument_2' value='argument_value_2'/>
+                <parameter kind='argument' name='argument_3' value='argument_value_3'/>
+                <parameter kind='argument' name='argument_1' value='argument_value_1'/>
+                <parameter kind='argument' name='argument_2' value='argument_value_2'/>
+                <parameter kind='argument' name='argument_3' value='argument_value_3'/>
+                <parameter kind='argument' name='argument_1' value='argument_value_1'/>
+                <parameter kind='argument' name='argument_2' value='argument_value_2'/>
+                <parameter kind='argument' name='argument_3' value='argument_value_3'/>
+                <parameter kind='argument' name='argument_1' value='argument_value_1'/>
+                <parameter kind='argument' name='argument_2' value='argument_value_2'/>
+                <parameter kind='argument' name='argument_3' value='argument_value_3'/>
+            </parameters>
+            <steps>
+                <step start='1677763549083' status='passed' stop='1677763549103'>
+                    <name>Root step</name>
+                    <title>Root step</title>
+                    <attachments>
+                        <attachment title='Root step (1)' source='f15e4e9e-a726-4e4e-8861-f1b687dc00bb-attachment.png' type='image/png' size='82502'/>
+                        <attachment title='Root step (2)' source='bf037708-53f4-48fa-8ea4-e43050467e8f-attachment.png' type='image/png' size='82502'/>
+                        <attachment title='Root step (3)' source='e9f72faf-a085-437d-9751-0d1cfa8d7944-attachment.png' type='image/png' size='82502'/>
+                    </attachments>
+                    <steps>
+                        <step start='1677763549087' status='passed' stop='1677763549103'>
+                            <name>Child step (depth 1)</name>
+                            <title>Child step (depth 1)</title>
+                            <attachments>
+                                <attachment title='Child step (depth 1) (1)' source='5a69d168-0557-4e96-8847-2f5d2bf6a399-attachment.png' type='image/png' size='82502'/>
+                                <attachment title='Child step (depth 1) (2)' source='d5e76bc4-aed9-4d29-bca1-f7f886bf3460-attachment.png' type='image/png' size='82502'/>
+                                <attachment title='Child step (depth 1) (3)' source='6cb901bd-5491-484a-8da8-ab9040b36b1b-attachment.png' type='image/png' size='82502'/>
+                            </attachments>
+                            <steps>
+                                <step start='1677763549088' status='passed' stop='1677763549103'>
+                                    <name>Child step (depth 2)</name>
+                                    <title>Child step (depth 2)</title>
+                                    <attachments>
+                                        <attachment title='Child step (depth 2) (1)' source='f0408c7c-fbd1-4e77-a3c0-e43f1e16920d-attachment.png' type='image/png' size='82502'/>
+                                        <attachment title='Child step (depth 2) (2)' source='ae57ba5c-a908-4ff5-a598-6ed3d33ea28a-attachment.png' type='image/png' size='82502'/>
+                                        <attachment title='Child step (depth 2) (3)' source='aaae0e50-c8bd-4267-8a92-1c846adaf509-attachment.png' type='image/png' size='82502'/>
+                                    </attachments>
+                                    <steps>
+                                        <step start='1677763549091' status='passed' stop='1677763549103'>
+                                            <name>Child step (depth 3)</name>
+                                            <title>Child step (depth 3)</title>
+                                            <attachments>
+                                                <attachment title='Child step (depth 3) (1)' source='83384668-0bbb-4d81-a375-d9cebbdf440b-attachment.png' type='image/png' size='82502'/>
+                                                <attachment title='Child step (depth 3) (2)' source='234e944b-545e-494e-8de9-d901f9f6675a-attachment.png' type='image/png' size='82502'/>
+                                                <attachment title='Child step (depth 3) (3)' source='e53a179b-5fee-432d-a781-50e5cf234139-attachment.png' type='image/png' size='82502'/>
+                                            </attachments>
+                                            <steps>
+                                                <step start='1677763549093' status='passed' stop='1677763549103'>
+                                                    <name>Child step (depth 4)</name>
+                                                    <title>Child step (depth 4)</title>
+                                                    <attachments>
+                                                        <attachment title='Child step (depth 4) (1)' source='e7ba893d-a3a5-4e4a-b61a-27de29435fab-attachment.png' type='image/png' size='82502'/>
+                                                        <attachment title='Child step (depth 4) (2)' source='6903bb4d-36fc-43bc-9de0-d7b86f2b3948-attachment.png' type='image/png' size='82502'/>
+                                                        <attachment title='Child step (depth 4) (3)' source='f84e074b-0923-47e3-9fb4-a684e54d6fc5-attachment.png' type='image/png' size='82502'/>
+                                                    </attachments>
+                                                    <steps>
+                                                        <step start='1677763549095' status='passed' stop='1677763549103'>
+                                                            <name>Child step (depth 5)</name>
+                                                            <title>Child step (depth 5)</title>
+                                                            <attachments>
+                                                                <attachment title='Child step (depth 5) (1)' source='ede2c079-8574-45ca-962f-849281bb9b9d-attachment.png' type='image/png' size='82502'/>
+                                                                <attachment title='Child step (depth 5) (2)' source='48317440-5d59-4d1b-90db-ede31cf12e21-attachment.png' type='image/png' size='82502'/>
+                                                                <attachment title='Child step (depth 5) (3)' source='2e3b2a06-7d97-4145-9f4c-747b2c26097b-attachment.png' type='image/png' size='82502'/>
+                                                            </attachments>
+                                                            <steps>
+                                                                <step start='1677763549097' status='passed' stop='1677763549103'>
+                                                                    <name>Child step (depth 6)</name>
+                                                                    <title>Child step (depth 6)</title>
+                                                                    <attachments>
+                                                                        <attachment title='Child step (depth 6) (1)' source='f24384f8-ce4b-4030-a34d-b5f06e799643-attachment.png' type='image/png' size='82502'/>
+                                                                        <attachment title='Child step (depth 6) (2)' source='09fe3e55-7eca-4834-b967-a62bd0add4a6-attachment.png' type='image/png' size='82502'/>
+                                                                        <attachment title='Child step (depth 6) (3)' source='443c6110-22d4-4849-badd-e93e1c3e0d68-attachment.png' type='image/png' size='82502'/>
+                                                                    </attachments>
+                                                                    <steps>
+                                                                        <step start='1677763549101' status='passed' stop='1677763549103'>
+                                                                            <name>Child step (depth 7)</name>
+                                                                            <title>Child step (depth 7)</title>
+                                                                            <attachments>
+                                                                                <attachment title='Child step (depth 7) (1)' source='6326e6d2-92d6-4883-adec-f5871688e5f1-attachment.png' type='image/png' size='82502'/>
+                                                                                <attachment title='Child step (depth 7) (2)' source='a6db47f0-3a8c-4dc6-8cb7-d2f1c5c4e893-attachment.png' type='image/png' size='82502'/>
+                                                                                <attachment title='Child step (depth 7) (3)' source='1cc2ff32-c4fa-403d-8115-d5bf07604af0-attachment.png' type='image/png' size='82502'/>
+                                                                            </attachments>
+                                                                            <steps/>
+                                                                        </step>
+                                                                    </steps>
+                                                                </step>
+                                                            </steps>
+                                                        </step>
+                                                    </steps>
+                                                </step>
+                                            </steps>
+                                        </step>
+                                    </steps>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
