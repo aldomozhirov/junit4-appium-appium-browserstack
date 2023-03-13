@@ -25,7 +25,7 @@ public class FirstTest extends BrowserStackJUnitTest {
     Thread.sleep(5000);
 
     List<AndroidElement> allProductsName = driver.findElementsByClassName("android.widget.TextView");
-    assertTrue(allProductsName.size() > 0);
+    assertTrue(false);
 
     JavascriptExecutor jse = driver;
     // set test status as pass
